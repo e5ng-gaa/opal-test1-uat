@@ -32,10 +32,6 @@
                 "target": "/task/:id"
             },
             {
-                "action": "DELETE",
-                "target": "/task/:id"
-            },
-            {
                 "action": "POST",
                 "target": "/task"
             }
