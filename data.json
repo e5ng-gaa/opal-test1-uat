@@ -12,7 +12,7 @@
         },
         "example.com": {
             "roles": [
-                "user"
+                "admin"
             ]
         },
         "user@test.test": {
