@@ -28,10 +28,6 @@
                 "target": "/tasks"
             },
             {
-                "action": "POST",
-                "target": "/task"
-            },
-            {
                 "action": "PUT",
                 "target": "/task/:id"
             },
