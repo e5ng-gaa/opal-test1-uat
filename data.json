@@ -34,6 +34,10 @@
             {
                 "action": "DELETE",
                 "target": "/task/:id"
+            },
+            {
+                "action": "POST",
+                "target": "/task"
             }
         ],
         "user": [
