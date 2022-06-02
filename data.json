@@ -34,10 +34,6 @@
             {
                 "action": "PUT",
                 "target": "/task/:id"
-            },
-            {
-                "action": "DELETE",
-                "target": "/task/:id"
             }
         ],
         "user": [
