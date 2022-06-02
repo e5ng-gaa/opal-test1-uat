@@ -12,7 +12,7 @@
         },
         "example.com": {
             "roles": [
-                "admin"
+                "user"
             ]
         },
         "user@test.test": {
@@ -28,12 +28,16 @@
                 "target": "/tasks"
             },
             {
+                "action": "POST",
+                "target": "/task"
+            },
+            {
                 "action": "PUT",
                 "target": "/task/:id"
             },
             {
-                "action": "POST",
-                "target": "/task"
+                "action": "DELETE",
+                "target": "/task/:id"
             }
         ],
         "user": [
