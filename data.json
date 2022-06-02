@@ -1,22 +1,63 @@
 {
-    "users": {},
+    "users": {
+        "admin@test.test": {
+            "roles": [
+                "admin"
+            ]
+        },
+        "security@test.test": {
+            "roles": [
+                "security"
+            ]
+        },
+        "example.com": {
+            "roles": [
+                "admin"
+            ]
+        },
+        "user@test.test": {
+            "roles": [
+                "user"
+            ]
+        }
+    },
     "role_permissions": {
-        "user": [
+        "admin": [
             {
                 "action": "GET",
-                "target": "/task"
-            },
-            {
-                "action": "PUT",
-                "target": "/task"
-            },
-            {
-                "action": "DELETE",
-                "target": "/task"
+                "target": "/tasks"
             },
             {
                 "action": "POST",
                 "target": "/task"
+            },
+            {
+                "action": "PUT",
+                "target": "/task/:id"
+            },
+            {
+                "action": "DELETE",
+                "target": "/task/:id"
+            }
+        ],
+        "user": [
+            {
+                "action": "GET",
+                "target": "/tasks"
+            },
+            {
+                "action": "POST",
+                "target": "/task"
+            },
+            {
+                "action": "PUT",
+                "target": "/task/:id"
+            }
+        ],
+        "security": [
+            {
+                "action": "GET",
+                "target": "/tasks"
             }
         ]
     }
