@@ -40,6 +40,12 @@
                 "target": "/task/:id"
             }
         ],
+        "user": [
+            {            
+                "action": "GET",
+                "target": "/tasks"
+            }
+        ],
         "security": [
             {
                 "action": "GET",
