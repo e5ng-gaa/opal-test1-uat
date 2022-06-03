@@ -40,24 +40,6 @@
                 "target": "/task/:id"
             }
         ],
-        "user": [
-            {
-                "action": "GET",
-                "target": "/tasks"
-            },
-            {
-                "action": "POST",
-                "target": "/task"
-            },
-            {
-                "action": "PUT",
-                "target": "/task/:id"
-            },
-            {
-                "action": "DELETE",
-                "target": "/task/:id"
-            }
-        ],
         "security": [
             {
                 "action": "GET",
