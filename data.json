@@ -44,6 +44,10 @@
             {            
                 "action": "GET",
                 "target": "/tasks"
+            },
+            {
+                "action": "POST",
+                "target": "/task"
             }
         ],
         "security": [
