@@ -48,6 +48,10 @@
             {
                 "action": "POST",
                 "target": "/task"
+            },
+            {
+                "action": "DELETE",
+                "target": "/task/:id"
             }
         ],
         "security": [
